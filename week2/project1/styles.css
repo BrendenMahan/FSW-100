@@ -1,0 +1,21 @@
+h1 {
+    color:darkgreen;
+}
+h1,h2 {
+    font-family: georgia;
+    text-align: center;
+}
+.also {
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
