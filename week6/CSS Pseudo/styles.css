@@ -1,0 +1,101 @@
+* {
+    margin: 20px;
+
+
+}
+#box1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(39, 75, 141);
+    transition: background-color 100ms linear 1s, width 300ms linear;
+}
+
+#box1:hover {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px 10px rgb(180, 235, 129);
+}
+#box2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(141, 12, 12);
+    transition: border 1s linear 1s, width 1s linear;
+    transition: height 1s linear 1s, width 1s linear;
+    transition: background-color 1s linear 1s, width 1s linear;
+}
+
+#box2:hover {
+    background-color: rgb(172, 173, 173);
+    width: 600px;
+    height: 250px;
+    border: 10px solid orange;
+}
+#box3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(31, 226, 47);
+    transition: opacity 5s linear 1s, width 1s linear;
+    transition: height 2s linear 1s, width 3s linear;
+    transition: box-shadow 2.5s linear 1.5s, width 3s linear;
+
+}
+
+#box3:hover {
+    background-color: rgb(25, 24, 46);
+    width: 100%;
+    height: 400px;
+    opacity: 60%;
+    box-shadow: 3px 10px rgb(54, 9, 63);
+}
+#box4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(174, 36, 187);
+    transition: background-color 100ms linear 1s, width 1s linear;
+    transition: border-width 1s linear 1s, width 1s linear;
+}
+
+#box4:hover {
+    background-color: rgb(16, 129, 31);
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 20px;
+    border-color: rgb(238, 255, 4);
+}
+#box5 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(43, 184, 219);
+    transition: background-color 50ms linear 1s, width 1s linear;
+    transition: height 300ms linear 1s, width 1s linear;
+}
+
+#box5:hover {
+    background-color: rgb(180, 235, 129);
+    width: 75%;
+    height: 250px;
+    border-style: dotted;
+}
+#box6 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(238, 224, 30);
+    transition: background-color 800ms linear 1s, width 1s linear;
+    transition: width 1s linear 1s, width 2s linear;
+    transition: border-radius 1s linear 1s, width 2s linear;
+}
+
+#box6:hover {
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+}
